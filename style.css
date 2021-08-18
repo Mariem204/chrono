@@ -1,0 +1,26 @@
+div{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+div h1{
+	font-size:5em;
+}
+div h2{
+	font-size:3em;
+}
+div button{
+	font-size:2em;
+    background-color: tomato;
+    display: flex;
+  
+} 
+.bouton {  flex-direction: row;
+justify-content:space-around;
+width: 500px;
+}
+
+.bouton:hover {background:white;
+color: blue;
+font-weight : 800 ;
+}
